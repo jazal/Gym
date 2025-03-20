@@ -1,0 +1,88 @@
+html {
+    font-family: "Outfit", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: #14141a;
+    color: aliceblue;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-link {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.main-link li {
+    display: inline-block;
+}
+
+.main-link .nav-link {
+    color: #FCFCFC;
+    position: relative;
+    padding: 0.5rem 0.5rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../images/banner.webp);
+    background-position: top;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    z-index: -10;
+}
+
+.banner .hero_inner {
+    position: relative;
+    z-index: 6;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero {
+    position: relative;
+    overflow: visible;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    min-height: 557px;
+}
+
+.banner .section_title {
+    color: #fff;
+    text-align: center;
+}
+
+.section_title span {
+    position: relative;
+    white-space: nowrap;
+}
+
+h1 {
+    font-size: 8rem;
+    font-weight: 500;
+    letter-spacing: -0.04em;
+    line-height: 0.875;
+}
