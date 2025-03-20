@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Design</title>
+    <link rel="stylesheet" href="../styles/input-style-v1.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            flex-direction: column;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="input-container">
+        <input type="text" placeholder="Text Input">
+        <input type="password" placeholder="Password Input">
+        <textarea placeholder="Textarea Input"></textarea>
+        <select>
+            <option value="">Select an option</option>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+        </select>
+        <div class="checkbox-container">
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox">Checkbox</label>
+        </div>
+        <div class="radio-container">
+            <input type="radio" id="radio1" name="radioGroup">
+            <label for="radio1">Radio 1</label>
+            <input type="radio" id="radio2" name="radioGroup">
+            <label for="radio2">Radio 2</label>
+        </div>
+        <button type="submit">Submit</button>
+    </div>
+</body>
+</html>

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GYM</title>
     <link rel="stylesheet" href="../styles/main.css" />
-    <link rel="stylesheet" href="../styles/input-style.css" />
+    <link rel="stylesheet" href="../styles/input-style-v1.css" />
   </head>
   <body>
     <!-- header -->
@@ -29,26 +29,32 @@
       </div>
     </header>
 
-    <div><h2 class="text-center">Appointment</h2>
-    
-      <form action="" method="post">
-      <input type="text" name="full_name" placeholder="Full Name" required>
-      <input type="email" name="email" placeholder="Email" required>
-      <input type="tel" name="phone" placeholder="Phone Number" required>
-      <input type="date" name="appointment_date" required>
-      <select name="appointment_type" required>
-          <option value="">Select Appointment Type</option>
-          <option value="consultation">Consultation</option>
-          <option value="follow-up">Follow-up</option>
-          <option value="check-up">Check-up</option>
-      </select>
-      <button type="submit">Book Appointment</button>
-  </form>
-</div>
-    
-        <!-- 
-<div>package</div>
-<div>footer</div> 
--->
-</body>
-<script src="scripts/script.js"></script>
+    <div class="container">
+      <h2>Appointment</h2>
+
+      <div class="input-container">
+        <form action="" method="post">
+          <div>
+            <input
+              type="text"
+              name="full_name"
+              placeholder="Full Name"
+              required
+            />
+          </div>
+          <input type="email" name="email" placeholder="Email" required />
+          <input type="tel" name="phone" placeholder="Phone Number" required />
+          <input type="date" name="appointment_date" required />
+          <select name="appointment_type" required>
+            <option value="">Select Appointment Type</option>
+            <option value="consultation">Consultation</option>
+            <option value="follow-up">Follow-up</option>
+            <option value="check-up">Check-up</option>
+          </select>
+          <button type="submit">Book Appointment</button>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="scripts/script.js"></script>
+</html>
