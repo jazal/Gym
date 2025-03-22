@@ -35,27 +35,27 @@
       <div class="form-container">
         <form action="" method="post">
           <div>
-            <label for="username">label</label>
+            <label for="name">Name</label>
             <input type="text" name="full_name" placeholder="Full Name" required/>
           </div>
 
           <div>
-            <label for="username">label</label>
+            <label for="username">Email</label>
             <input type="email" name="email" placeholder="Email" required />
           </div>
 
           <div>
-            <label for="username">label</label>
+            <label for="phone">Phone Number</label>
             <input type="tel" name="phone" placeholder="Phone Number" required />
           </div>
 
           <div>
-            <label for="username">label</label>
-            <input type="date" name="appointment_date" required />
+            <label for="date&time">Date and Time</label>
+            <input type="datetime-local" name="date&time" placeholder="Date and time"required />
           </div>
 
           <div>
-            <label for="username">label</label>
+            <label for="Appointment">Appointment</label>
             <select name="appointment_type" required>
               <option value="">Select Appointment Type</option>
               <option value="consultation">Consultation</option>
@@ -63,10 +63,31 @@
               <option value="check-up">Check-up</option>
             </select>
           </div>
+
           <button type="submit">Book Appointment</button>
         </form>
       </div>
 
+      <div><h2 class="text-center">Apoointment Table</h2></div>
+
+    <table>
+      <tr>
+        <th>NAME</th>
+        <th>EMAIL</th>
+        <th>PHONE NUMBER</th>
+        <th>DATE</th>
+        <th>TIME</th>
+        <th>APPOINTMENTS</th>
+              
+               
+      </tr>
+      <tr>
+        <td>miSHA</td>
+        <td>22222</td>
+        <td>445</td>
+       
+      </tr>
+    </table>
 
 <!--       
       For Testing
