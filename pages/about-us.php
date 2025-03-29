@@ -9,25 +9,7 @@
   </head>
   <body>
     <!-- header -->
-    <header>
-      <div class="header-content">
-        <div><h2 style="font-size: 250%">GYM</h2></div>
-        <div>
-          <nav>
-            <ul class="main-link">
-              <li><a href="../index.html" class="nav-link">Home</a></li>
-              <li><a href="#" class="nav-link">About Us</a></li>
-              <li><a href="#" class="nav-link">Programs</a></li>
-              <li><a href="#" class="nav-link">Pages</a></li>
-              <li><a href="#" class="nav-link">Blog</a></li>
-              <li><a href="#" class="nav-link">Contact Us</a></li>
-            </ul>
-          </nav>
-        </div>
-
-        <div>Join Us</div>
-      </div>
-    </header>
+    <?php include 'header.php'; ?>
 
     <div class="container">
       <h1>About Us</h1>
@@ -35,10 +17,11 @@
       
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. soluta vitae unde aut doloremque sunt, veniam magnam deleniti laudantium beatae neque est modi non velit. Saepe fugit quis, modi explicabo aliquid expedita consectetur nesciunt totam asperiores optio ad harum veniam voluptates eius reiciendis sequi. Necessitatibus, voluptate dolores excepturi suscipit magnam reiciendis vero veritatis dolorum fugit accusamus accusantium! Cupiditate animi sint aliquid, temporibus consectetur cum explicabo enim rerum ipsum quam soluta expedita suscipit voluptatum laboriosam cumque ullam recusandae officiis, molestiae architecto? Impedit eveniet quibusdam eaque omnis obcaecati, tenetur praesentium, atque expedita odio ullam corrupti iure, eos quia eum officia inventore nihil ratione minus facilis similique voluptatum? Atque sapiente aperiam modi cupiditate molestiae, hic odio minima voluptate! Facilis tempora obcaecati nam, culpa nostrum, veniam ducimus veritatis aut officiis odit nihil magni molestias sed quae rem voluptatum architecto harum beatae quaerat fugiat deleniti itaque? Tenetur sequi quod expedita officia obcaecati accusamus alias, id error adipisci provident laborum non reiciendis ducimus libero ullam tempora. Tempora aut nisi harum, a, atque soluta iusto quam quis cum esse ipsa. Aut illo possimus delectus velit, ea reprehenderit eveniet, alias iste nobis soluta neque autem officiis porro natus. Officia voluptas nostrum aliquid voluptatibus consequatur ratione, est quidem hic. Quam, unde! Itaque facere, amet aliquam distinctio error deserunt corrupti doloribus accusantium exercitationem velit dolore beatae eligendi et eius enim cum sed adipisci veritatis incidunt aspernatur! Veniam obcaecati, consequatur illo fugit impedit dignissimos, quo eligendi iusto expedita libero porro consectetur molestiae nobis voluptas rerum quia assumenda voluptatum nihil, alias harum adipisci laborum fugiat debitis omnis. Adipisci, quasi earum asperiores et impedit voluptas facilis, neque obcaecati nostrum nam, eveniet deserunt quae laboriosam. Nam tenetur, repellendus quam inventore aperiam tempore, illo excepturi obcaecati eos in accusamus voluptatum, maiores fugiat et commodi est provident.</p>
     </div>
-    <!-- 
-    <div>package</div>
-    <div>footer</div> 
-    -->
+   
+    
+    <!-- footer -->
+    <?php include 'footer.php'; ?>
+
   </body>
   <script src="scripts/script.js"></script>
 </html>
